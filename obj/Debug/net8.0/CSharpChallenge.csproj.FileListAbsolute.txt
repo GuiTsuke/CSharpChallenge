@@ -1,0 +1,14 @@
+D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.AssemblyInfoInputs.cache
+D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.AssemblyInfo.cs
+D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.csproj.CoreCompileInputs.cache
+D:\src\CSharpChallenge\bin\Debug\net8.0\CSharpChallenge.exe
+D:\src\CSharpChallenge\bin\Debug\net8.0\CSharpChallenge.deps.json
+D:\src\CSharpChallenge\bin\Debug\net8.0\CSharpChallenge.runtimeconfig.json
+D:\src\CSharpChallenge\bin\Debug\net8.0\CSharpChallenge.dll
+D:\src\CSharpChallenge\bin\Debug\net8.0\CSharpChallenge.pdb
+D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.dll
+D:\src\CSharpChallenge\obj\Debug\net8.0\refint\CSharpChallenge.dll
+D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.pdb
+D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.genruntimeconfig.cache
+D:\src\CSharpChallenge\obj\Debug\net8.0\ref\CSharpChallenge.dll
