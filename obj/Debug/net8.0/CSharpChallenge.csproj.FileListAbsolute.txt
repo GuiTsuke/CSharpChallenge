@@ -12,3 +12,4 @@ D:\src\CSharpChallenge\obj\Debug\net8.0\refint\CSharpChallenge.dll
 D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.pdb
 D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.genruntimeconfig.cache
 D:\src\CSharpChallenge\obj\Debug\net8.0\ref\CSharpChallenge.dll
+D:\src\CSharpChallenge\obj\Debug\net8.0\CSharpChallenge.sourcelink.json

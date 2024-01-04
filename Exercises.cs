@@ -11,7 +11,9 @@ class Exercises
         // ExerciseTwo();
         // ExerciseThree();
         // ExerciseFour();
-        ExerciseFive();
+        // ExerciseFive();
+        // ExerciseSix();
+        ExerciseSeven();
     }
 
     public static void ExerciseOne()
@@ -55,12 +57,30 @@ class Exercises
     public static void ExerciseFive()
     {
         decimal primeiroNumero, segundoNumero, media;
-        
+
         Console.WriteLine("Digite o primeiro numero: ");
         primeiroNumero = Convert.ToDecimal(Console.ReadLine());
         Console.WriteLine("Digite o segundo numero: ");
         segundoNumero = Convert.ToDecimal(Console.ReadLine());
         media = (primeiroNumero + segundoNumero) / 2;
         Console.WriteLine($"A média entre {primeiroNumero} e {segundoNumero} é {media}");
+    }
+
+    public static void ExerciseSix()
+    {
+        int numero;
+
+        Console.WriteLine("Digite um número: ");
+        numero = Convert.ToInt16(Console.ReadLine());
+        Console.WriteLine($"O antecessor de {numero} é {numero - 1}\nO sucessor de {numero} é {numero + 1}");
+    }
+
+    public static void ExerciseSeven()
+    {
+        decimal numero;
+        
+        Console.WriteLine("Digite um número: ");
+        numero = Convert.ToDecimal(Console.ReadLine());
+        Console.WriteLine($"O dobro de {numero} é {numero * 2}\nA terça parte de {numero} é {(numero/3).ToString("0.00")}");
     }
 }
