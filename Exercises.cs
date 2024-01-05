@@ -13,7 +13,8 @@ class Exercises
         // ExerciseFour();
         // ExerciseFive();
         // ExerciseSix();
-        ExerciseSeven();
+        // ExerciseSeven();
+        ExerciseEight();
     }
 
     public static void ExerciseOne()
@@ -78,9 +79,19 @@ class Exercises
     public static void ExerciseSeven()
     {
         decimal numero;
-        
+
         Console.WriteLine("Digite um número: ");
         numero = Convert.ToDecimal(Console.ReadLine());
-        Console.WriteLine($"O dobro de {numero} é {numero * 2}\nA terça parte de {numero} é {(numero/3).ToString("0.00")}");
+        Console.WriteLine($"O dobro de {numero} é {numero * 2}\nA terça parte de {numero} é {(numero / 3).ToString("0.00")}");
+    }
+    public static void ExerciseEight()
+    {
+        decimal metro;
+        Console.WriteLine("Digite uma distancia em metros:");
+        metro = Convert.ToDecimal(Console.ReadLine());
+        Console.WriteLine($"A distancia de {metro}m convertida é de:");
+        Console.WriteLine($@"{metro/1000}Km               {(metro*10).ToString("#.#")}dm");
+        Console.WriteLine($@"{metro/100}Hm                {metro*100:.0}cm");
+        Console.WriteLine($@"{metro/10}Dam               {metro*1000:F1}mm");
     }
 }
