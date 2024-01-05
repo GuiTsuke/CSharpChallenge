@@ -6,6 +6,8 @@ class Exercises
 {
     static void Main()
     {
+
+
         // Teste do Exercicio
         // ExerciseOne();
         // ExerciseTwo();
@@ -14,7 +16,8 @@ class Exercises
         // ExerciseFive();
         // ExerciseSix();
         // ExerciseSeven();
-        ExerciseEight();
+        // ExerciseEight();
+        ExerciseNine();
     }
 
     public static void ExerciseOne()
@@ -93,5 +96,16 @@ class Exercises
         Console.WriteLine($@"{metro/1000}Km               {(metro*10).ToString("#.#")}dm");
         Console.WriteLine($@"{metro/100}Hm                {metro*100:.0}cm");
         Console.WriteLine($@"{metro/10}Dam               {metro*1000:F1}mm");
+    }
+
+    public static void ExerciseNine()
+    {
+        decimal real = 0, dolar = 0;
+
+        Console.Write($"Digite o valor em real a ser convertido: R$");
+        real = Convert.ToDecimal(Console.ReadLine()); 
+        dolar = real / 4.87m;
+        Console.WriteLine($"O valor de R${real:F2} convertido é ${dolar:F2}");
+
     }
 }
