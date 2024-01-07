@@ -17,7 +17,8 @@ class Exercises
         // ExerciseSix();
         // ExerciseSeven();
         // ExerciseEight();
-        ExerciseNine();
+        // ExerciseNine();
+        ExerciseTen();
     }
 
     public static void ExerciseOne()
@@ -106,6 +107,22 @@ class Exercises
         real = Convert.ToDecimal(Console.ReadLine()); 
         dolar = real / 4.87m;
         Console.WriteLine($"O valor de R${real:F2} convertido é ${dolar:F2}");
+
+    }
+    public static void ExerciseTen()
+    {
+        decimal largura, altura, area, tinta;
+
+        Console.Write($"Digite a largura da parede a ser pintada:");
+        largura = Convert.ToDecimal(Console.ReadLine()); 
+
+        Console.Write($"Digite a altura da parede a ser pintada:");
+        altura = Convert.ToDecimal(Console.ReadLine());
+
+        area = largura * altura;
+        tinta = area / 2.0m;
+
+        Console.WriteLine($"É necessario usar {tinta:F2}l de tinta para pintar uma parede de {area:F2}m²");
 
     }
 }
