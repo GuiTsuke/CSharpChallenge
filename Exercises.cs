@@ -29,19 +29,17 @@ class Exercises
 
     public static void ExerciseTwo()
     {
-        string nomeUsuario;
         Console.WriteLine("Digite seu nome: ");
-        nomeUsuario = Console.ReadLine();
+        var nomeUsuario = Console.ReadLine();
         Console.WriteLine($"Olá, {nomeUsuario}");
     }
 
     public static void ExerciseThree()
     {
-        string nome;
         decimal salario;
 
         Console.WriteLine("Digite seu nome: ");
-        nome = Console.ReadLine();
+        var nome = Console.ReadLine();
 
         Console.WriteLine("Digite seu salario: ");
         salario = Convert.ToInt16(Console.ReadLine());
