@@ -18,7 +18,9 @@ class Exercises
         // ExerciseSeven();
         // ExerciseEight();
         // ExerciseNine();
-        ExerciseTen();
+        // ExerciseTen();
+        ExerciseEleven();
+
     }
 
     public static void ExerciseOne()
@@ -123,4 +125,24 @@ class Exercises
         Console.WriteLine($"É necessario usar {tinta:F2}l de tinta para pintar uma parede de {area:F2}m²");
 
     }
+
+    public static void ExerciseEleven()
+    {
+        int A, B, C; 
+        double delta;
+
+        Console.Write($"Digite o valor de A:");
+        A = Convert.ToInt16(Console.ReadLine()); 
+        Console.Write($"Digite o valor de B:");
+        B = Convert.ToInt16(Console.ReadLine()); 
+        Console.Write($"Digite o valor de C:");
+        C = Convert.ToInt16(Console.ReadLine());
+
+        delta = Math.Pow(B, 2) - 4 * A * C;
+
+        Console.Write($"Equação de delta {B}² - 4 * {A} * {C} = {delta}");
+
+    }
+
+
 }
