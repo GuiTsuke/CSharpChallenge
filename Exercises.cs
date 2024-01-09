@@ -20,7 +20,8 @@ class Exercises
         // ExerciseNine();
         // ExerciseTen();
         // ExerciseEleven();
-        ExerciseTwelve();
+        // ExerciseTwelve();
+        ExerciseThirteen();
 
     }
 
@@ -136,14 +137,22 @@ class Exercises
         Console.Write($"Equação de delta {B}² - 4 * {A} * {C} = {delta}");
 
     }
-    public static void ExerciseTwelve()
-    {
+    public static void ExerciseTwelve(){
         decimal preco;
 
         Console.Write($"Digite o Preço atual do produto:");
         preco = Convert.ToDecimal(Console.ReadLine()); 
 
         Console.Write($"O produto de R${preco} com desconto de 5% é R${preco * 0.95m}");
+    }
+    public static void ExerciseThirteen()
+    {
+        decimal salarioAtual;
+
+        Console.Write($"Digite o Salario atual do funcionário: R$");
+        salarioAtual = Convert.ToDecimal(Console.ReadLine()); 
+
+        Console.Write($"Salário: R${salarioAtual}\nSalário com 15% de aumento: R${salarioAtual * 1.15m}");
     }
 
 
