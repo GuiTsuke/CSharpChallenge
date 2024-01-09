@@ -19,7 +19,8 @@ class Exercises
         // ExerciseEight();
         // ExerciseNine();
         // ExerciseTen();
-        ExerciseEleven();
+        // ExerciseEleven();
+        ExerciseTwelve();
 
     }
 
@@ -28,14 +29,12 @@ class Exercises
         Console.WriteLine("Exercicio 1 - Famoso Hello World");
         Console.WriteLine("Hello World!");
     }
-
     public static void ExerciseTwo()
     {
         Console.WriteLine("Digite seu nome: ");
         var nomeUsuario = Console.ReadLine();
         Console.WriteLine($"Olá, {nomeUsuario}");
     }
-
     public static void ExerciseThree()
     {
         decimal salario;
@@ -48,7 +47,6 @@ class Exercises
 
         Console.WriteLine($"Nome: {nome}\nSalario: {salario}");
     }
-
     public static void ExerciseFour()
     {
         int primeiroNumero, segundoNumero;
@@ -58,7 +56,6 @@ class Exercises
         segundoNumero = Convert.ToInt16(Console.ReadLine());
         Console.WriteLine($"A soma entre {primeiroNumero} e {segundoNumero} é {primeiroNumero + segundoNumero}");
     }
-
     public static void ExerciseFive()
     {
         decimal primeiroNumero, segundoNumero, media;
@@ -70,7 +67,6 @@ class Exercises
         media = (primeiroNumero + segundoNumero) / 2;
         Console.WriteLine($"A média entre {primeiroNumero} e {segundoNumero} é {media}");
     }
-
     public static void ExerciseSix()
     {
         int numero;
@@ -79,7 +75,6 @@ class Exercises
         numero = Convert.ToInt16(Console.ReadLine());
         Console.WriteLine($"O antecessor de {numero} é {numero - 1}\nO sucessor de {numero} é {numero + 1}");
     }
-
     public static void ExerciseSeven()
     {
         decimal numero;
@@ -98,7 +93,6 @@ class Exercises
         Console.WriteLine($@"{metro/100}Hm                {metro*100:.0}cm");
         Console.WriteLine($@"{metro/10}Dam               {metro*1000:F1}mm");
     }
-
     public static void ExerciseNine()
     {
         decimal real = 0, dolar = 0;
@@ -125,7 +119,6 @@ class Exercises
         Console.WriteLine($"É necessario usar {tinta:F2}l de tinta para pintar uma parede de {area:F2}m²");
 
     }
-
     public static void ExerciseEleven()
     {
         int A, B, C; 
@@ -142,6 +135,15 @@ class Exercises
 
         Console.Write($"Equação de delta {B}² - 4 * {A} * {C} = {delta}");
 
+    }
+    public static void ExerciseTwelve()
+    {
+        decimal preco;
+
+        Console.Write($"Digite o Preço atual do produto:");
+        preco = Convert.ToDecimal(Console.ReadLine()); 
+
+        Console.Write($"O produto de R${preco} com desconto de 5% é R${preco * 0.95m}");
     }
 
 
