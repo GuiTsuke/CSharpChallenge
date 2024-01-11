@@ -166,7 +166,7 @@ class Exercises
         dias = Convert.ToDecimal(Console.ReadLine());
         Console.WriteLine("Quantos km o carro rodou? ");
         km = Convert.ToDecimal(Console.ReadLine());
-        valorTotal = (dias * 90.00m) + (km * 0.20m);
+        valorTotal = ((dias <= 0 ? 1 : dias) * 90.00m) + (km * 0.20m);
         Console.WriteLine($"O valor total a se pagar é {valorTotal}");
 
     }
