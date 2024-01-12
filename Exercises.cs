@@ -22,7 +22,8 @@ class Exercises
         // ExerciseEleven();
         // ExerciseTwelve();
         // ExerciseThirteen();
-        ExerciseFourteen();
+        // ExerciseFourteen();
+        ExerciseFifteen();
 
     }
 
@@ -155,12 +156,11 @@ class Exercises
 
         Console.Write($"Salário: R${salarioAtual}\nSalário com 15% de aumento: R${salarioAtual * 1.15m}");
     }
-
     public static void ExerciseFourteen()
     {
         decimal km;
         decimal dias;
-        decimal valorTotal; 
+        decimal valorTotal;
 
         Console.WriteLine("Por quantos dias o carro foi alugado?");
         dias = Convert.ToDecimal(Console.ReadLine());
@@ -168,6 +168,15 @@ class Exercises
         km = Convert.ToDecimal(Console.ReadLine());
         valorTotal = ((dias <= 0 ? 1 : dias) * 90.00m) + (km * 0.20m);
         Console.WriteLine($"O valor total a se pagar é {valorTotal}");
+
+    }
+    public static void ExerciseFifteen()
+    {
+        int diasTrabalhados;
+        
+        Console.Write("Dias trabalhados no mês: ");
+        diasTrabalhados = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"Salario: R${diasTrabalhados * 8m * 25m}");
 
     }
 
